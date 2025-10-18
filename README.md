@@ -61,4 +61,4 @@ The teddy bear emoji (🧸) makes ANA feel:
 
 ---
 
-**Enjoy chatting with ANA, Abiha! 🧸💜**
+**Enjoy chatting with ANA**
