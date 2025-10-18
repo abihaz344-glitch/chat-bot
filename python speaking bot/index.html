@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANA - Your AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-content">
+                <span class="teddy-icon">🧸</span>
+                <h1>ANA</h1>
+            </div>
+            <div class="controls">
+                <button id="clear-chat" class="icon-btn" title="Clear Chat">
+                    <i class="fas fa-trash"></i>
+                </button>
+                <button id="toggle-speech" class="icon-btn active" title="Toggle Speech">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div id="chat-box">
+            <div class="welcome-message">
+                <span class="teddy-icon-large">🧸</span>
+                <p>Hi Abiha! I'm ANA, your friendly AI assistant. You can type or speak to me!</p>
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <button id="voice-btn" class="voice-btn" title="Click to speak">
+                <i class="fas fa-microphone"></i>
+            </button>
+            <input type="text" id="user-input" placeholder="Type a message or click the mic to speak...">
+            <button id="send-btn" class="send-btn" title="Send message">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+        
+        <div id="voice-indicator" class="voice-indicator hidden">
+            <div class="pulse"></div>
+            <span>Listening...</span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
